@@ -9,46 +9,22 @@
         body {
             font-family: "Microsoft YaHei",\5FAE\8F6F\96C5\9ED1,Tahoma,Arial,Helvetica;
         }
-        .left-margin{
-            margin-left: 50px;
-        }
         .header{
             color: #fff;
             background-color: #000;
+        }
+        .header .col-lg-3{
             padding: 5px;
-        }
-        .header-message{
-            line-height: 20px;
-            margin-bottom: 0;
-        }
-        .header-message > div{
-            display: inline;
-        }
-        .phone-icon{
-            width: 16px;
-            height: 16px;
-            font-size: 16px;
-            margin: 0 10px;
-            background-image: url(img/icon-base.png);
-        }
-        .top-nav{
-            margin-top: 30px;
-            margin-bottom: 20px;
-        }
-        .custom-nav{
-            position: relative;
-            top: 10px;
-            left: 10px;
         }
         .content{
             background-color: #f3f4f8;
             padding: 20px;
             margin-top: 10px;
         }
-        /*.content .col-lg-9 ,.content .col-lg-3 ,.content .col-md-3 ,.content .col-md-9{*/
-            /*padding-right: 0;*/
-            /*padding-left: 0;*/
-        /*}*/
+        .content .col-lg-9 ,.content .col-lg-3 ,.content .col-md-3 ,.content .col-md-9{
+            padding-right: 0;
+            padding-left: 0;
+        }
         .left-nav{
             position: relative;
             left: 20px;
@@ -75,19 +51,17 @@
             font-size: 16px;
             font-weight: bold;
         }
-        .custom-panel{
+        .right-detail {
             width: 95%;
+        }
+        .right-detail .list-group-item{
+            padding-top: 20px;
+            padding-left: 51px;
+            padding-right: 50px;
+        }
+        .right-detail h3{
             font-size: 16px;
-            background-color: #fff;
-            border: 1px solid #dedede;
-        }
-        .panel-content{
-            padding: 50px 50px;
-        }
-        .content-header{
-            padding-bottom: 10px;
-            border-bottom: 1px solid #dedede;
-            margin-bottom: 10px;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -95,24 +69,11 @@
 <header class="header">
     <div class="container">
         <div class="row">
-            <div class="left-margin header-message ">
-                <div class="phone">咨询电话<span class="phone-icon"></span>4008-556-333</div>
-                <div><a href=""><span class="iphone-icon"></span>手机上金银猫</a></div>
-            </div>
+            <div class="col-lg-3">111</div>
+            <div class="col-lg-3">111</div>
         </div>
     </div>
 </header>
-<div class="top-nav">
-    <div class="container">
-        <div class="col-lg-4"><a href=""><img class="img-responsive left-margin" src="img/logo.png" alt=""/></a></div>
-        <ul class="col-lg-6 nav custom-nav">
-            <li >首页</li>
-        </ul>
-        <ul class="col-lg-2 btn-user">
-            <li></li>
-        </ul>
-    </div>
-</div>
 <div class="content">
     <div class="container">
         <div class="container-fluid" >
@@ -144,26 +105,26 @@
                     </div>
                 </div>
                 <div class="col-lg-9 col-md-9">
-                        <div class="custom-panel">
-                            <div class="panel-content">
-                                <div class="content-header"><b>金银e家</b></div>
-                                <div class="content-body">
-                                    <p>
-                                        金银e家（线下服务点）：金银猫创新的O2O（线上产品线下客户端相结合）模式，满足了社区客户个性化金融服务需求，覆盖了银行等金融机构后台的业务流程，提供理财咨询、金融产品交易和便民服务等功能，充分发挥电子自助化作用，帮助用户更有效、及时地管理、规划并增值其资产。
-                                    </p>
-                                    <img class="img-responsive" src="img/20150316045605702.jpg" alt=""/>
-                                    <p>招商说明：* 有自营金融公司，经营范围如“金融信息服务”、“商务咨询”、“投资管理”等</p>
-                                    <p>* 经营环境为经济发达、民间借贷旺盛地区</p>
-                                    <p>* 拥有50㎡～80㎡的固定办公场所，临街铺面， 接近客源和人流密集地段</p>
-                                    <p>* 熟悉金融行业运作模式，尤其民间借贷、小微企业融资等业务</p>
-                                    <p>* 核心管理人员具有金融行业从业背景及经验</p>
-                                    <p>* 有稳定票据资源（地域不限）</p>
-                                    <p>* 具有一定的流动资金尤佳</p>
-                                    <img class="img-responsive" src="img/20150316045719704.jpg" alt=""/>
-                                    <p>网点分布：
-                                    </p>
-                                </div>
-                        </div>
+                    <div class="right-detail">
+                        <ul class="list-group">
+                            <li class="list-group-item "><h3 class="">金银e家</h3></li>
+                            <li class="list-group-item ">
+                                <p>
+                                    金银e家（线下服务点）：金银猫创新的O2O（线上产品线下客户端相结合）模式，满足了社区客户个性化金融服务需求，覆盖了银行等金融机构后台的业务流程，提供理财咨询、金融产品交易和便民服务等功能，充分发挥电子自助化作用，帮助用户更有效、及时地管理、规划并增值其资产。
+                                </p>
+                                <img class="img-responsive" src="img/20150316045605702.jpg" alt=""/>
+                                <p>招商说明：* 有自营金融公司，经营范围如“金融信息服务”、“商务咨询”、“投资管理”等</p>
+                                <p>* 经营环境为经济发达、民间借贷旺盛地区</p>
+                                <p>* 拥有50㎡～80㎡的固定办公场所，临街铺面， 接近客源和人流密集地段</p>
+                                <p>* 熟悉金融行业运作模式，尤其民间借贷、小微企业融资等业务</p>
+                                <p>* 核心管理人员具有金融行业从业背景及经验</p>
+                                <p>* 有稳定票据资源（地域不限）</p>
+                                <p>* 具有一定的流动资金尤佳</p>
+                                <img src="img/20150316045719704.jpg" alt=""/>
+                                <p>网点分布：
+                                </p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
